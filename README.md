@@ -11,14 +11,8 @@ This repository contains the code and documentation for:
 The project involves data analysis with **Python**, leveraging **Numpy**, **Pandas**, and **Seaborn** for visualization and analysis.
 
 ## Key Features
-
-1. **Forensic Auditing**:
+ **Forensic Auditing**:
    - Detects anomalies and potential misappropriation in financial data.
-   - Ensures compliance with financial regulations and standards.
-
-2. **Predictive Pricing**:
-   - Implements a pricing strategy using historical customer and policy data.
-   - Improves the accuracy of revenue forecasting for new policy acquisitions.
 
 ## Technologies Used
 
