@@ -2,6 +2,7 @@
 .wslconfig
 .wsl/
 wsl.conf
+wsl commands
 
 # Python
 __pycache__/
