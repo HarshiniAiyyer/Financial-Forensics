@@ -1,0 +1,53 @@
+# WSL specific files
+.wslconfig
+.wsl/
+*.wsl
+wsl commands
+send email from wsl
+
+# Email configuration files
+.msmtprc
+.msmtp.log
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Airflow specific
+#airflow/
+#airflow_home/
+#airflow.cfg
+#airflow.db
+#webserver_config.py
+
+# System Files
+.DS_Store
+Thumbs.db 
