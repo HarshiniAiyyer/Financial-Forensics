@@ -3,6 +3,10 @@
 .wsl/
 wsl.conf
 
+# Secret files and directories
+secret/
+secret/*
+
 # Python
 __pycache__/
 *.py[cod]
