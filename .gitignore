@@ -1,23 +1,7 @@
 # WSL specific files
 .wslconfig
 .wsl/
-*.wsl
-wsl commands
-send email from wsl
-
-# Email configuration files
-.msmtprc
-.msmtp.log
-*.log
-
-# Virtual Environment
-venv/
-env/
-ENV/
-.env
-.venv
-env.bak/
-venv.bak/
+wsl.conf
 
 # Python
 __pycache__/
@@ -41,13 +25,38 @@ wheels/
 .installed.cfg
 *.egg
 
-# Airflow specific
-#airflow/
-#airflow_home/
-#airflow.cfg
-#airflow.db
-#webserver_config.py
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Airflow
+airflow_home/logs/
+airflow_home/airflow.db
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Local development
+.env
+.env.local
+.env.*.local
+
+# Email configuration files
+.msmtprc
+.msmtp.log
+*.log
 
 # System Files
-.DS_Store
 Thumbs.db 
