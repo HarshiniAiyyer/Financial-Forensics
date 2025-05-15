@@ -1,4 +1,4 @@
-# Financial Data Analysis and ML Pipeline
+# ForensicOps: MLOps for Forensic Audit Analytics
 
 ## Project Overview
 - This MLOps project implements a forensic audit system for healthcare insurance coverage data under the Affordable Care Act (ACA). The system combines statistical analysis (Benford's Law) and ML techniques to detect potential anomalies and patterns in healthcare enrollment data across US states. 
